@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginTest">
+    <test name="TestLogin" verbose="2">
+        <parameter name="browserName" value="chrome" />
+        <classes>
+            <class
+                    name="daisy.test.ProductSearchTest">
+                <methods>
+                      <include name="searchForAProductTestCase1"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
